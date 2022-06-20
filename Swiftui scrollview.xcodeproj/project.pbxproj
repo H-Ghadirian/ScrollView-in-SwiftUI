@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A25E8DE28607F0E001A421F /* Swiftui_scrollviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8DD28607F0E001A421F /* Swiftui_scrollviewApp.swift */; };
+		2A25E8E028607F0E001A421F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8DF28607F0E001A421F /* ContentView.swift */; };
+		2A25E8E228607F11001A421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A25E8E128607F11001A421F /* Assets.xcassets */; };
+		2A25E8E528607F11001A421F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A25E8E428607F11001A421F /* Preview Assets.xcassets */; };
+		2A25E8EF28607F11001A421F /* Swiftui_scrollviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8EE28607F11001A421F /* Swiftui_scrollviewTests.swift */; };
+		2A25E8F928607F11001A421F /* Swiftui_scrollviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8F828607F11001A421F /* Swiftui_scrollviewUITests.swift */; };
+		2A25E8FB28607F11001A421F /* Swiftui_scrollviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8FA28607F11001A421F /* Swiftui_scrollviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A25E8EB28607F11001A421F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A25E8D228607F0E001A421F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A25E8D928607F0E001A421F;
+			remoteInfo = "Swiftui scrollview";
+		};
+		2A25E8F528607F11001A421F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A25E8D228607F0E001A421F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A25E8D928607F0E001A421F;
+			remoteInfo = "Swiftui scrollview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A25E8DA28607F0E001A421F /* Swiftui scrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftui scrollview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A25E8DD28607F0E001A421F /* Swiftui_scrollviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_scrollviewApp.swift; sourceTree = "<group>"; };
+		2A25E8DF28607F0E001A421F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A25E8E128607F11001A421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A25E8E428607F11001A421F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A25E8EA28607F11001A421F /* Swiftui scrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftui scrollviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A25E8EE28607F11001A421F /* Swiftui_scrollviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_scrollviewTests.swift; sourceTree = "<group>"; };
+		2A25E8F428607F11001A421F /* Swiftui scrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftui scrollviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A25E8F828607F11001A421F /* Swiftui_scrollviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_scrollviewUITests.swift; sourceTree = "<group>"; };
+		2A25E8FA28607F11001A421F /* Swiftui_scrollviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_scrollviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A25E8D728607F0E001A421F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8E728607F11001A421F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8F128607F11001A421F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A25E8D128607F0E001A421F = {
+			isa = PBXGroup;
+			children = (
+				2A25E8DC28607F0E001A421F /* Swiftui scrollview */,
+				2A25E8ED28607F11001A421F /* Swiftui scrollviewTests */,
+				2A25E8F728607F11001A421F /* Swiftui scrollviewUITests */,
+				2A25E8DB28607F0E001A421F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A25E8DB28607F0E001A421F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A25E8DA28607F0E001A421F /* Swiftui scrollview.app */,
+				2A25E8EA28607F11001A421F /* Swiftui scrollviewTests.xctest */,
+				2A25E8F428607F11001A421F /* Swiftui scrollviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A25E8DC28607F0E001A421F /* Swiftui scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				2A25E8DD28607F0E001A421F /* Swiftui_scrollviewApp.swift */,
+				2A25E8DF28607F0E001A421F /* ContentView.swift */,
+				2A25E8E128607F11001A421F /* Assets.xcassets */,
+				2A25E8E328607F11001A421F /* Preview Content */,
+			);
+			path = "Swiftui scrollview";
+			sourceTree = "<group>";
+		};
+		2A25E8E328607F11001A421F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A25E8E428607F11001A421F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A25E8ED28607F11001A421F /* Swiftui scrollviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A25E8EE28607F11001A421F /* Swiftui_scrollviewTests.swift */,
+			);
+			path = "Swiftui scrollviewTests";
+			sourceTree = "<group>";
+		};
+		2A25E8F728607F11001A421F /* Swiftui scrollviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A25E8F828607F11001A421F /* Swiftui_scrollviewUITests.swift */,
+				2A25E8FA28607F11001A421F /* Swiftui_scrollviewUITestsLaunchTests.swift */,
+			);
+			path = "Swiftui scrollviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A25E8D928607F0E001A421F /* Swiftui scrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A25E8FE28607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollview" */;
+			buildPhases = (
+				2A25E8D628607F0E001A421F /* Sources */,
+				2A25E8D728607F0E001A421F /* Frameworks */,
+				2A25E8D828607F0E001A421F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftui scrollview";
+			productName = "Swiftui scrollview";
+			productReference = 2A25E8DA28607F0E001A421F /* Swiftui scrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A25E8E928607F11001A421F /* Swiftui scrollviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A25E90128607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollviewTests" */;
+			buildPhases = (
+				2A25E8E628607F11001A421F /* Sources */,
+				2A25E8E728607F11001A421F /* Frameworks */,
+				2A25E8E828607F11001A421F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A25E8EC28607F11001A421F /* PBXTargetDependency */,
+			);
+			name = "Swiftui scrollviewTests";
+			productName = "Swiftui scrollviewTests";
+			productReference = 2A25E8EA28607F11001A421F /* Swiftui scrollviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A25E8F328607F11001A421F /* Swiftui scrollviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A25E90428607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollviewUITests" */;
+			buildPhases = (
+				2A25E8F028607F11001A421F /* Sources */,
+				2A25E8F128607F11001A421F /* Frameworks */,
+				2A25E8F228607F11001A421F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A25E8F628607F11001A421F /* PBXTargetDependency */,
+			);
+			name = "Swiftui scrollviewUITests";
+			productName = "Swiftui scrollviewUITests";
+			productReference = 2A25E8F428607F11001A421F /* Swiftui scrollviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A25E8D228607F0E001A421F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2A25E8D928607F0E001A421F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2A25E8E928607F11001A421F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A25E8D928607F0E001A421F;
+					};
+					2A25E8F328607F11001A421F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A25E8D928607F0E001A421F;
+					};
+				};
+			};
+			buildConfigurationList = 2A25E8D528607F0E001A421F /* Build configuration list for PBXProject "Swiftui scrollview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A25E8D128607F0E001A421F;
+			productRefGroup = 2A25E8DB28607F0E001A421F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A25E8D928607F0E001A421F /* Swiftui scrollview */,
+				2A25E8E928607F11001A421F /* Swiftui scrollviewTests */,
+				2A25E8F328607F11001A421F /* Swiftui scrollviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A25E8D828607F0E001A421F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A25E8E528607F11001A421F /* Preview Assets.xcassets in Resources */,
+				2A25E8E228607F11001A421F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8E828607F11001A421F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8F228607F11001A421F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A25E8D628607F0E001A421F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A25E8E028607F0E001A421F /* ContentView.swift in Sources */,
+				2A25E8DE28607F0E001A421F /* Swiftui_scrollviewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8E628607F11001A421F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A25E8EF28607F11001A421F /* Swiftui_scrollviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A25E8F028607F11001A421F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A25E8FB28607F11001A421F /* Swiftui_scrollviewUITestsLaunchTests.swift in Sources */,
+				2A25E8F928607F11001A421F /* Swiftui_scrollviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A25E8EC28607F11001A421F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A25E8D928607F0E001A421F /* Swiftui scrollview */;
+			targetProxy = 2A25E8EB28607F11001A421F /* PBXContainerItemProxy */;
+		};
+		2A25E8F628607F11001A421F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A25E8D928607F0E001A421F /* Swiftui scrollview */;
+			targetProxy = 2A25E8F528607F11001A421F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A25E8FC28607F11001A421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A25E8FD28607F11001A421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A25E8FF28607F11001A421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftui scrollview/Preview Content\"";
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A25E90028607F11001A421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftui scrollview/Preview Content\"";
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A25E90228607F11001A421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftui scrollview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftui scrollview";
+			};
+			name = Debug;
+		};
+		2A25E90328607F11001A421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftui scrollview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftui scrollview";
+			};
+			name = Release;
+		};
+		2A25E90528607F11001A421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftui scrollview";
+			};
+			name = Debug;
+		};
+		2A25E90628607F11001A421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDQ479VRV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kindesswand.com.Swiftui-scrollviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftui scrollview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A25E8D528607F0E001A421F /* Build configuration list for PBXProject "Swiftui scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A25E8FC28607F11001A421F /* Debug */,
+				2A25E8FD28607F11001A421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A25E8FE28607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A25E8FF28607F11001A421F /* Debug */,
+				2A25E90028607F11001A421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A25E90128607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A25E90228607F11001A421F /* Debug */,
+				2A25E90328607F11001A421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A25E90428607F11001A421F /* Build configuration list for PBXNativeTarget "Swiftui scrollviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A25E90528607F11001A421F /* Debug */,
+				2A25E90628607F11001A421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A25E8D228607F0E001A421F /* Project object */;
+}
